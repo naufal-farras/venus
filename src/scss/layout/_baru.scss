@@ -1,0 +1,8 @@
+.site-footer-innerr {
+	position: relative; /* To display all elements above the background color */
+	display: flex;
+	flex-wrap: wrap;
+	/* padding-top: 48px;
+	padding-bottom: 48px; */
+	@include divider(before, dark);
+}
